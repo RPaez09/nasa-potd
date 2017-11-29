@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #010A15;
+}
+
+.content {
+  padding: 50px 70px;
+  color: #010A15;
+}
+
+.card {
+  width: 100%;
+  min-height: 600px;
+  background-color: #FEFEFE;
+  padding: 50px;
+}
+.card h1, .card h2 {
+  text-align: center;
+}
+.card h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.card .main-img {
+  width: 100%;
+  margin: 50px auto 40px auto;
+}
+.card .date {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+.card p {
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #262630;
+  text-align: center;
+  padding: 50px;
+}
+.footer h2, .footer h3 {
+  color: #FEFEFE;
+}
+
+@media only screen and (max-width: 992px) {
+  .content {
+    padding: 30px 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    padding: 15px;
+  }
+  .card h1 {
+    font-size: 30px;
+  }
+  .card .main-img {
+    margin: 20px auto;
+  }
+  .card h2 {
+    font-size: 24px;
+  }
+  .card p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 10px;
+  }
+  .card .date {
+    top: -40px;
+    right: 35px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .card .date {
+    top: -5px;
+  }
+  .card h1 {
+    font-size: 20px;
+  }
+  .card p {
+    line-height: 22px;
+  }
+}
